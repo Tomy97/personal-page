@@ -1,0 +1,99 @@
+.Form__container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    box-sizing: border-box;
+}
+
+.Form{
+    max-width: 1024px;
+    min-width: 300px;
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 12px rgba(78, 78, 78, 0.644);
+}
+.Form__title{
+    color: rgb(80, 71, 71);
+}
+.Form__input{
+    font-size: 1.2rem;
+    position: relative;
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    outline: none;
+    color: white;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding-left: 10px;
+    color: rgb(80, 71, 71);
+    transition: .3s;
+}
+.Form__input:focus {
+    border-bottom: 2px solid #18A0FB;
+    transition: .3s;
+}
+.Form__input::placeholder{
+    color: rgb(80, 71, 71);
+    letter-spacing: -1px;
+}
+.Form__errors{
+    font-size: 1.1rem;
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15px; 
+    letter-spacing: -1.2px;
+}
+.Form__password__i{
+    position: relative;
+    top: -45px;
+    left: 80%;
+}
+.Form__email__i{
+    position: relative;
+    top: -45px;
+    left: 80%;
+}
+.Form__forgot{
+    text-decoration: none;
+    font-size: .9rem;
+    letter-spacing: -1px;
+    color: rgb(80, 71, 71);
+}
+.Form__forgot:hover{
+    font-weight: bolder;
+    transition: all .5s;
+}
+.Form__btn{
+    width: 70%;
+    font-size: 1.2rem;  
+    height:40px;
+    cursor: pointer;
+    background-color: #18A0FB;
+    margin: auto;
+    max-width: 200px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.Form__btn:hover{
+    background-color: #1373b3;
+    letter-spacing: -1.3px;
+    transition: all .5s;
+    color: white;
+}
